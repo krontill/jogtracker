@@ -4,6 +4,7 @@ import './header.css';
 import './app.css';
 import './main.css';
 import Logo from "../../components/Logo";
+import Controls from "../../components/Controls";
 import indexRoutes from '../../routes';
 
 class App extends Component {
@@ -12,6 +13,7 @@ class App extends Component {
       <div className="app">
         <header className="header">
           <Logo/>
+          <Controls/>
         </header>
         <main className="main">
           <Switch>
