@@ -1,0 +1,18 @@
+.bear {
+  width: 160px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.bear__el {
+  fill: #e990f9;
+}
+
+@media (min-width: 768px) {
+  .bear {
+    background: #e990f9;
+  }
+  .bear__el {
+    fill: #fff;
+  }
+}

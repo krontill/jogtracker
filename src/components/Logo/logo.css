@@ -1,0 +1,13 @@
+.logo {
+  width: 98px;
+  height: 37px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    width: 147px;
+    height: 56px;
+  }
+}

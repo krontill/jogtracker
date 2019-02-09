@@ -1,0 +1,17 @@
+.let-me-in {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .let-me-in {
+    width: 503px;
+    height: 379px;
+    border-radius: 44px;
+    background: #e990f9;
+    margin-top: 40px;
+  }
+}
